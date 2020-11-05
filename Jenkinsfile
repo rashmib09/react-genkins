@@ -8,7 +8,7 @@ pipeline {
         
     stage('Git') {
       steps {
-        git 'https://github.com/rashmib09/react-genkins.git'
+       echo 'https://github.com/rashmib09/react-genkins.git'
       }
     }
      
