@@ -1,7 +1,8 @@
 pipeline {
   agent any
     
-  tools {nodejs "NodeJs",jdk 'JDK 1.8'}
+  tools {nodejs "NodeJs"
+         jdk 'JDK 1.8'}
     
   stages {
         
