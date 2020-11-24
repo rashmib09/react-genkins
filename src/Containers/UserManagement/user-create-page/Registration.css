@@ -1,0 +1,173 @@
+.gss-registration {
+    min-height: 520px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.gss-registration .reg-title {
+    color: #666666;
+    font-size: 28px;
+    font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.standard-text {
+    max-width: 600px;
+    font-size: 14px;
+    font-family: Arial, Sans-Serif;
+    color: #666666;
+}
+
+.side-text{
+    font-size:12px;margin-left:275px;
+}
+.reg-link {
+    font-size: 12px !important;
+    color: #73a492 !important;
+    font-family: Arial, Sans-Serif !important;
+}
+.demoForm {
+	margin: auto;
+}
+#register, #login {
+    width: 300px;
+    border: 1px solid #d6d7da;
+    padding: 0px 15px 15px 15px;
+    border-radius: 5px;
+    font-family: arial;
+    line-height: 16px;
+    color: #333333;
+    font-size: 14px;
+    background: #ffffff;
+    margin: 100px auto;
+  }
+  label {
+    display: inline-block;
+  } 
+  .form-horizontal .form-group, form.form-horizontal .form-actions {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+  
+  /* .button {
+    background-color: #00BFFF;
+    border-color: #3ac162;
+    font-weight: bold;
+    padding: 12px 15px;
+    color: #ffffff;
+  } */
+  
+  .errorMsg {
+    color: #cc0000;
+    margin-bottom: 12px;
+  }
+  
+  .sucessMsg {
+    color: #6B8E23;
+    margin-bottom: 10px;
+  }
+  .umgmt-registration a {
+    color: #f3901d;
+    font-size: 15px;
+    font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+}
+.commit{
+  margin-right: 10px;
+}
+/* .modal {
+  width: 600px;
+  max-width: 100%;
+  
+} */
+.modal_footer .pull-right{
+  float: right;
+}
+.modal_footer .pull-left{
+  float: left;
+}
+.modal_footer .secondary-link {
+  position: relative;
+  color: #666666;
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+  letter-spacing: .4px;
+  font-weight: bold;
+  /* right: 100px; */
+}
+.modal .cancel {
+  color: #666666;
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+  letter-spacing: .4px;
+}
+.modal_footer .primary-link{
+  /* width: 253px; */
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+  font-size: 17px;
+  letter-spacing: .4px;
+}
+.btn-orange{
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+  color: #ffffff;
+  background-color: #f3901d !important;
+  border-color: #f3901d !important;
+}
+.modal_footer {
+  background-color: #f5f3f2;
+  border-top: 1px solid #cbcbcb;
+  padding: 0px !important;
+  font-size: 17px;
+  min-height: 50px;
+}
+.modal_footer .btn-one{
+  background-color: #f3901d;
+  border-color: #f3901d;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.modal_footer .btn-two{
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.modal_title,.modal_content{
+  background-color: #f5f3f2;
+  border-top: 1px solid #cbcbcb;
+  padding: 0;
+  font-size: 17px;
+}
+.modal_content label {
+  font-size: 14px;
+  font-family: Arial, Sans-Serif;
+  color: #666666;
+  font-weight: bold;
+}
+.modal_title .MuiTypography-h6 {
+  margin-left: 20px;
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+  color: #666666;
+  font-size: 20px;
+  line-height: 1.42857;
+  font-weight: bold;
+} 
+.modal_content .form-control{
+  box-shadow: none;
+  height: 32px;
+  border: medium none;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0px;
+  width: 100% !important;
+}
+.usr-settings-export{
+  margin-bottom: 15px;
+}
+#user_allow_email{
+  height: auto;
+  margin-right: 15px;
+}

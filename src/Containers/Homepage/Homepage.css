@@ -1,0 +1,28 @@
+.or-content.or-fixed {
+    min-height: 817px;
+    max-width: 980px;
+    min-width: 980px;
+    margin: 0 auto;
+    border-left: 1px solid #9a9a9a;
+    border-right: 1px solid #9a9a9a;
+    border-top: 0;
+  }
+  
+  .or-content {
+    background-color: #ffffff;
+    width: 100%;
+  }
+  
+  .ui-layout-north {
+    -webkit-box-shadow: 0 3px 8px 0 #e7e7e7;
+    -moz-box-shadow: 0 3px 8px 0 #e7e7e7;
+    box-shadow: 0 3px 8px 0 #e7e7e7;
+    min-height: 97px;
+    z-index: 3 !important;
+  }
+  
+  .ui-layout-center {
+    min-height: 749px;
+  }
+  
+  

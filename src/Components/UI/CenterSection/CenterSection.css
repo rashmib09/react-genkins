@@ -1,0 +1,40 @@
+.arrow_position{
+    position:relative;top:5px;margin-left:6px
+}
+
+#command-bar {
+    width: 900px;
+    margin: 0 auto;
+    height: 40px;
+    position: relative;
+}
+
+#command-bar .cmd-bar {
+    display: inline-block;
+}
+
+#command-bar .cmd-img {
+    position: relative;
+    top: 8px;
+    border-right: 1px solid #fff;
+}
+
+#command-bar .mygss {
+    margin-left: 3px;
+    color: #f3901d;
+    position: relative;
+    top: 2px;
+    font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#command-bar .cmd-title-section {
+    top: 7px;
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    height: 30px;
+    color: #666666;
+    position: relative;
+    font-family: Helvetica, Arial, Sans-Serif;
+}

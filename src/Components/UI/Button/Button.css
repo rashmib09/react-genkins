@@ -1,0 +1,59 @@
+.mg-button {
+
+    font-size: 17px !important;
+    width: 195px !important;
+    height: 37px !important;
+    right: 246px !important;
+    margin-top: 60px !important;
+    background-color: #f3901d;
+    letter-spacing: .4px;
+    color: white;
+    border: 0;
+    font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif !important;
+
+}
+    /* background-color: #29292a;
+    border: solid 1px #fff;
+    border-radius: 2px;
+    color: #fff;
+    font-family: BrownStd, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 15px 40px;
+} */
+
+.mg-button:hover {
+
+    color: #ffffff;
+    background-color: #d2760b;
+    border-color: #c8700b;
+
+}
+
+.mg-button[disabled],
+.mg-button[disabled]:hover {
+    background-color: #eee;
+    border-color: #fff;
+    color: #787878;
+    cursor: default;
+}
+
+
+.mg-button.orange,
+.mg-button.waitlist {
+    background-color: #c88b79;
+}
+
+.mg-button.orange:hover,
+.mg-button.waitlist:hover {
+    background-color: #d7aa9d;
+    border-color: #fff;
+    color: #fff;
+}
+
+.mg-button.block {
+    width: 100%;
+}

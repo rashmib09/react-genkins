@@ -1,38 +1,584 @@
-.App {
+body, body.umgmt {
+  overflow: auto;
+}
+
+html, body, body.umgmt {
+  background-color: #e6e6e6;
+  background-image: none;
+  width: 100%;
+  color: #666666;
+}
+body {
+  font-family: "OpenSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: #fff;
+}
+body {
+  margin: 0;
+}
+body {
+  font-family: "OpenSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+}  
+.or-content.or-fixed {
+  min-height: 817px;
+  max-width: 980px;
+  min-width: 980px;
+  margin: 0 auto;
+  border-left: 1px solid #9a9a9a;
+  border-right: 1px solid #9a9a9a;
+  border-top: 0;
+}
+.or-content {
+  background-color: #ffffff;
+  width: 100%;
+}
+.ui-layout-north {
+  -webkit-box-shadow: 0 3px 8px 0 #e7e7e7;
+  -moz-box-shadow: 0 3px 8px 0 #e7e7e7;
+  box-shadow: 0 3px 8px 0 #e7e7e7;
+  min-height: 97px;
+  z-index: 3 !important;
+}
+.umgmt-registration {
+  min-height: 520px;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.umgmt-registration .reg-title {
+  color: #666666;
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.umgmt-registration .form-header h2 {
+  display: inline-block;
+  font-size: 20px;
+  color: #666666;
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+  font-weight: bold;
+  position: relative;
+  top: 12px;
+  left: 20px;
+}
+.umgmt-registration .form-header p {
+  display: inline-block;
+  font-family: Arial, Sans-Serif;
+  font-weight: bold;
+  position: relative;
+  top: 12px;
+  left: 610px;
+  color: #666666;
+}
+.umgmt-registration .simple_form {
+  border-left: 1px solid #cbcbcb;
+  border-right: 1px solid #cbcbcb;
+  border-bottom: 1px solid #cbcbcb;
+}
+form.form-horizontal {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.umgmt-registration .form-header {
+  height: 53px;
+  background-color: #f5f3f2;
+  border: 1px solid #cbcbcb;
+}
+
+abbr{
+  text-decoration: none !important;
+  color: red;
+}
+.umgmt-registration .col-form-label {
+  font-family: Arial, Sans-Serif;
+  color: #666666;
+  font-weight: normal;
+}
+.form-control.is-valid, .was-validated .form-control:valid {
+  border-color: transparent !important;
+  padding-right: 0.5em !important; 
+  background-image: none !important;
+}
+.commit {
+  font-size: 16px;
+  right: 25px;
+  width: 195px;
+  height: 37px;
+  background-color: #f3901d !important;
+  border-color: #f3901d !important;
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+}
+.umgmt-registration input.form-control {
+  padding-left: 10px;
+}
+.form-horizontal .form-group input, form.form-horizontal .form-actions input, .form-horizontal .input-group input {
+  height: 32px;
+}
+.form-horizontal .form-control, .form-vertical .form-control {
+  box-shadow: none;
+}
+.umgmt-registration .form-control {
+  border: medium none;
+  box-shadow: none;
+  padding: 0;
+  width: 400px !important;
+  border-radius: 0px;
+}
+.umgmt-registration .form-inline label{
+  display: inline;
+}
+#footer #footer_1 {
+  height: 102px;
+  background-color: #6b6a6a;
+  position: relative;
+}
+#footer {
+  width: 980px;
+  margin: 0 auto;
+  font-size: 12px;
+  font-family: Arial, Sans-Serif;
+  color: #f0f0f0;
+}
+
+#footer {
+  border-top: 1px solid #B6B6B6;
+  font-size: 10px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#footer #footer_1 .left_footer {
+  position: absolute;
+  top: 24px;
+  right: 557px;
+}
+#footer #footer_1 .right_footer {
+  position: absolute;
+  bottom: 23px;
+  left: 747px;
+}
+#footer #footer_1 .left_footer .footer_address {
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+#footer #footer_1 .left_footer .footer_contact {
+  position: relative;
+  top: 10px;
+  right: 162px;
+}
+#footer #footer_2 {
+  height: 59px;
+  background-color: #595959;
+  position: relative;
+  text-align: left;
+  padding-left: 40px;
+}
+#footer #footer_links {
+  padding-left: 0;
+  margin-top: 14px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#footer ul {
+  list-style-type: none;
+  display: inline-block;
+}
+#footer li {
+  display: inline;
+}
+#footer #footer_links li a {
+  color: #eb8d22;
+  margin-right: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 17.1428px;
+  font-size: 12px;
+}
+#footer #copyright_info {
+  display: block;
+  margin-top: -9px;
+  color: #b8b8b8;
+  font-size: 11px;
+}
+#menu {
+  margin: 0 auto;
+  width: 980px;
+  background-color: white;
+  color: #73a492;
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+}
+/* #menu .navbar {
+  border: none;
+} */
+.or-top-nav {
+  margin-bottom: 0;
+  z-index: 1200;
+}
+.navbar:before, .navbar:after {
+  content: " ";
+  display: table;
+} 
+#menu .menu-logo-container {
+  min-height: 88px;
+  /* text-align: start; */
+  /* line-height: 20px; */
+  /* font-size: 14px */
+}
+#menu .logo {
+  padding-top: 8px;
+}
+.main-title a {
+  position: relative;
+  top: 13px;
+  font-size: 31px;
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+  color: #666666;
+}
+.main-title img {
+  position: relative;
+  right: -37px;
+  bottom: -1px;
+  width: 204px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main-title img {
+  vertical-align: middle;
+}
+.main-title img {
+  border: 0;
+}
+#menu .navlinks {
+  position: relative;
+  top: 37px;
+}
+.navbar-collapse {
+  padding: 0;
+}
+.pull-right{
+  float: right
+}
+#menu li a {
+  background-color: white;
+  font-size: 15px;
+  color: #666666;
+  padding: 5px 2px;
+  letter-spacing: .4px;
+  margin-top: 22px;
+  display: block;
+}
+
+.or-top-nav .navbar-nav li a {
+  font-weight: normal;
+  font-size: 11px;
+  margin: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #FAFAFA;
+  color: #333333;
+}
+#menu .gray {
+  height: 60px;
+  background-color: #ECECEC;
+}
+#menu li.gray span {
+  position: absolute;
+  font-family: Arial, Sans-Serif;
+  font-size: 11px;
+  left: 12px;
+  top: 4px;
+  z-index: 100;
+  color: #666;
+}
+#menu li.gray a {
+  background-color: #ECECEC;
+}
+#menu li a {
+  background-color: white;
+  font-size: 15px;
+  color: #666666;
+  padding: 5px 2px;
+  letter-spacing: .4px;
+  margin-top: 22px;
+}
+.or-top-nav .navbar-nav li a {
+  font-weight: normal;
+  font-size: 11px;
+  margin: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #FAFAFA;
+  color: #333333;
+}
+#menu div.gray {
+  position: absolute;
+  width: 39px;
+  right: -39px;
+  top: 0px;
+}
+#menu .gray {
+  height: 60px;
+  background-color: #ECECEC;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+#menu .user-menu {
+  position: absolute;
+  right: 0;
+  top: 8px;
+}
+#menu .light_text {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+#menu .user-menu ul.nav li a {
+  margin-top: 0;
+  margin-right: 2px;
+  margin-bottom: 0;
+  font-size: 11px;
+  line-height: normal;
+}
+#menu .user-menu ul.nav li a {
+  margin-top: 0;
+  margin-right: 2px;
+  margin-bottom: 0;
+  font-size: 11px;
+  line-height: normal;
+}
+#menu .user-menu ul.nav li a {
+  margin-top: 0;
+  margin-right: 2px;
+  margin-bottom: 0;
+  font-size: 11px;
+  line-height: normal;
+}
+
+#menu .orange {
+  color: #f3901d;
+}
+#menu .username {
+  display: inline-block;
+  max-width: 116px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#menu .light_text i.fa-caret-down, #menu .light_text i.gss-down-caret {
+  margin-left: 7px;
+  color: #c2c2c2;
+  position: relative;
+  bottom: 2px;
+}
+.fa, ul.tagit li.tagit-choice a.tagit-close, .gss-down-caret {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#menu .light_text ul.dropdown-menu {
+  text-align: center;
+  padding: 0;
+  min-width: 135px;
+}
+#menu li.submenu {
+  height: 40px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+#menu .user-menu ul.nav li a {
+  margin-top: 0;
+  margin-right: 2px;
+  margin-bottom: 0;
+  font-size: 11px;
+  line-height: normal;
+}
+
+#menu li.submenu a {
+  width: 120px;
+  padding-top: 10px;
+  font-size: 14px;
+  font-family: Arial, Sans-Serif;
+  font-weight: bold;
+  padding-left: 10px;
+  color: #6a6a6a;
+}
+.navbar {
+  position: relative;
+  min-height: 50px;
+}
+.navbar-header {
+  float: left;
+}
+.navbar-header:after {
+  clear: both;
+}
+.navbar-nav>li {
+  float: left;
+}
+.nav>li {
+  position: relative;
+  display: block;
+}
+.navbar-nav{
+  flex-direction: unset !important ;
+}
+.navbar-nav>li>a{
+  line-height: 20px;
+}
+.ui-center{
+  width: 980px;
+  margin: 0 auto;
+  min-height: 790px;
+}
+
+
+
+
+
+/* Same CSS as old App*/
+
+.ui-layout-north .navbar {
+  border: none;
+}
+
+.or-top-nav {
+  margin-bottom: 0;
+  z-index: 1200;
+}
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  display: inherit !important;
+  flex-wrap: unset;
+  padding: 0px !important;
+  /* margin-bottom: 20px; */
+  border: 1px solid transparent;
+}
+#ws-content {
+  background-color: #ffffff;
+  padding-bottom: 15px;
+}
+#ws-content .gss-section {
+  margin: 0 20px;
+}
+
+.sidebar {
+  width: 245px;
+  background-color: #c5beb5;
+  margin-top: 28px;
+  margin-right: 20px;
+  margin-bottom: 45px;
+}
+.sidebar .content .sidebar-box {
+  font-size: 12px;
+  background-color: #c5beb5;
+  padding: 23px;
+  border-bottom: 1px solid #e2dfda;
+}
+.sidebar .content h4 {
   color: white;
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+  font-size: 21px;
+}
+.sidebar .content p {
+  font-family: Arial, Sans-Serif;
+  color: white;
+  font-size: 14px;
+}
+.sidebar-box p {
+  color: white !important;
+}
+.sidebar .content .sidebar-box .sidebar-button {
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 147px;
+  height: 37px;
+  font-size: 13px;
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+  letter-spacing: .5px;
+  background-color: #6b6b6b;
+  border: 0;
+}
+.gss-center {
+  margin-top: 0px;
+  margin-left: 20px;
+  width: 646px;
+}
+#ws-content .gss-large-title {
+  margin: 19px 0 18px 0px;
+  font-size: 28px;
+  color: #666666;
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
 }
 
-.App-link {
-  color: #61dafb;
+.gss-center .gss-large-title {
+  padding-right: 30px;
+  margin-bottom: 10px;
+}
+.ui-layout-center {
+  min-height: 749px;
+}
+/*project card */
+#ws-content .projects .project-tile {
+  width: 300px;
+  height: 274px;
+  background-color: #f0f0f0;
+  -webkit-box-shadow: 0 2px 4px -2px #000000;
+  -moz-box-shadow: 0 2px 4px -2px #000000;
+  box-shadow: 0 2px 4px -2px #000000;
+  background-color:#f0f0f0;
+  background-color:rgb(240, 240, 240);
+}
+#ws-content .projects .project-tile, #ws-content .projects .items-tile, .items-tile {
+  overflow: hidden;
+  box-shadow: 1px 2px 4px 0px rgba(50,50,50,0.36);
+  -webkit-box-shadow: 1px 2px 4px 0px rgba(50,50,50,0.36);
+  -moz-box-shadow: 1px 2px 4px 0px rgba(50,50,50,0.36);
+  border: 1px solid #cbcbcb;
+  width: 300px;
+  height: 367px;
+  float: left;
+  margin: 0 23px 23px 0;
+  background-color: white;
+}
+#ws-content .projects .project-tile .title {
+  height: 70px;
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#ws-content .projects .project-tile .title, #ws-content .projects .project-tile .activity, #ws-content .projects .project-tile .description {
+  border-bottom: 1px solid white;
+}
+#ws-content .projects .project-tile .title a {
+  position: relative;
+  left: 16px;
+  top: 10px;
+  color: #4f977d;
+  font-size: 21px;
+  font-family: "Helvetica-BC", Helvetica, Arial, Sans-Serif;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+#ws-content .projects .project-tile .visibility-info {
+  font-size: 12px;
+  color: #333333;
+  font-family: Arial, Sans-Serif;
+}
+#ws-content .projects .project-tile .title i {
+  line-height: 40px;
+  width: 40px;
+  background-color: transparent;
+  vertical-align: middle;
+}
+.gss-dd-content {
+  display: none;
 }
